@@ -1,0 +1,24 @@
+@import url("./navbar.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --oswald: "Oswald", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url("./assets/your-name.jpg") center / cover no-repeat;
+
+  height: 100vh;
+}
